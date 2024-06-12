@@ -4,8 +4,10 @@ import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
 import { skeleton } from '@skeletonlabs/tw-plugin'
 
+import {dracula} from "./dracula";
+
 export default {
-	darkMode: 'class',
+	darkMode: 'selector',
 	content: ['./src/**/*.{html,js,svelte,ts}', join(require.resolve('@skeletonlabs/skeleton'), '../**/*.{html,js,svelte,ts}')],
 	theme: {
 		extend: {},
@@ -15,13 +17,10 @@ export default {
 		typography,
 		skeleton({
 			themes: {
-				preset: [
-					{
-						name: 'skeleton',
-						enhancements: true,
-					},
-				],
-			},
+				custom: [
+					dracula
+				]
+			}
 		}),
 	],
 } satisfies Config;
