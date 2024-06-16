@@ -1,16 +1,17 @@
 <script lang="ts">
 	import Typewriter from 'svelte-typewriter';
-	import { MultiStepLoader } from '$lib';
+	import { MultiStepLoader, Navbar } from '$lib';
 	import { IconSquareRoundedX } from '@tabler/icons-svelte';
 	import { onMount } from 'svelte';
 	import { Canvas } from '@threlte/core';
 	import { SceneHome } from '$lib';
-
+	import { blur, fly, fade } from 'svelte/transition';
+	import { circOut } from 'svelte/easing';
 
 	let words: string[] = ['Developer', 'CTF Player', 'Student'];
 
-	// let loading = true;
-	let loading = false;
+	let loading = true;
+	// let loading = false;
 	let duration: number = 2000;
 	const loadingStates = [
 		{ text: 'Booting' },
@@ -41,7 +42,7 @@
     }
 
     div {
-        height: 100vh;
+        height: 68vh;
     }
 </style>
 
@@ -59,24 +60,33 @@
 	{/if}
 
 	<div class="flex w-full float-left">
+
 		<div class="mt-52 w-[50%]">
-			<Typewriter mode="loop" cursor={true} delay={100}>
-				{#each Object.entries(words) as [_, value]}
-					<div>
-						<h1 class="text-8xl font-medium text-center">{value}</h1>
-					</div>
-				{/each}
-			</Typewriter>
+			{#if !loading}
+				<div transition:fly={{ delay: 550, duration: 1000, easing: circOut,x:-1000,y:0}}>
+					<Typewriter mode="loop" cursor={true} delay={100}>
+						{#each Object.entries(words) as [_, value]}
+							<div>
+								<h1 class="text-8xl font-medium text-center">{value}</h1>
+							</div>
+						{/each}
+					</Typewriter>
+				</div>
+			{/if}
 		</div>
+
 
 		<div class="w-[50%] float-right">
-			<Canvas>
-				<SceneHome />
-			</Canvas>
+			{#if !loading}
+				<div transition:fly={{ delay: 550, duration: 1000, easing: circOut,x:1000,y:0}}>
+					<Canvas>
+						<SceneHome />
+					</Canvas>
+				</div>
+			{/if}
 		</div>
+
 	</div>
-
-
 </main>
 
 
