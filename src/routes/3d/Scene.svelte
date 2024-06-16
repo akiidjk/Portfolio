@@ -1,33 +1,26 @@
 <script>
-    import {T, useFrame} from '@threlte/core';
-    import {interactivity} from '@threlte/extras';
-    import {spring} from 'svelte/motion';
-
-    interactivity();
-
-    const scale = spring(1);
-    let rotation = 0;
-
-    useFrame((_, delta) => {
-        rotation += delta * 0.01; // Aggiungi un fattore di scala per la velocità di rotazione
-    });
+	import { T } from '@threlte/core';
+	import { OrbitControls, Sky } from '@threlte/extras';
+	import { Porsche911 } from '$lib';
 </script>
 
-<T.PerspectiveCamera
-        makeDefault
-        position={[10, 10, 10]}
-        on:create={({ ref }) => {
-        ref.lookAt(0, 1, 0);
-    }}
-/>
+<!--npx @threlte/gltf@latest .\japanese_restaurant.glb &#45;&#45;transform-->
 
-<T.Mesh
-        rotation={[0, rotation, 0]}
-        position={[0, 1, 0]}
-        scale={$scale}
-        on:pointerenter={() => scale.set(1.5)}
-        on:pointerleave={() => scale.set(1)}
->
-    <T.BoxGeometry args={[1, 2, 1]}/>
-    <T.MeshBasicMaterial color="hotpink"/>
-</T.Mesh>
+<!-- Configurazione della telecamera prospettica con controlli orbitali -->
+<T.PerspectiveCamera makeDefault position={[1, 1, 0]}>
+	<OrbitControls
+		allowPan={false}
+		enableDamping
+		maxDistance={200}
+		minDistance={10}
+		autoRotate
+		autoRotateSpeed={1.0}
+	/>
+</T.PerspectiveCamera>
+
+<Sky />
+
+<!-- Modello Porsche911 -->
+<Porsche911 />
+
+<!--<T.GridHelper />-->
