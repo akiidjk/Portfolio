@@ -24,30 +24,78 @@ Title: 2022 Porche 911 GT3 RSR
 		<slot name="fallback" />
 	{:then gltf}
 		<T.Group rotation={[-Math.PI / 2, 0, 0]} position={[610, -15, 610]}>
-			<T.Mesh geometry={gltf.nodes.Object_2.geometry} material={gltf.materials.Meshestowhooks1Mtl} />
+			<T.Mesh
+				geometry={gltf.nodes.Object_2.geometry}
+				material={gltf.materials.Meshestowhooks1Mtl}
+			/>
 			<T.Mesh geometry={gltf.nodes.Object_3.geometry} material={gltf.materials.Meshespart11Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_4.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_5.geometry} material={gltf.materials.Mesheswindows21Mtl} />
+			<T.Mesh
+				geometry={gltf.nodes.Object_4.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_5.geometry}
+				material={gltf.materials.Mesheswindows21Mtl}
+			/>
 			<T.Mesh geometry={gltf.nodes.Object_6.geometry} material={gltf.materials.Meshesbeat1Mtl} />
 			<T.Mesh geometry={gltf.nodes.Object_7.geometry} material={gltf.materials.Meshesbeat1Mtl} />
 			<T.Mesh geometry={gltf.nodes.Object_8.geometry} material={gltf.materials['21Mtl']} />
 			<T.Mesh geometry={gltf.nodes.Object_9.geometry} material={gltf.materials['21Mtl']} />
 			<T.Mesh geometry={gltf.nodes.Object_10.geometry} material={gltf.materials['21Mtl']} />
-			<T.Mesh geometry={gltf.nodes.Object_11.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_12.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_13.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_14.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_15.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_16.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_17.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_18.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_19.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
+			<T.Mesh
+				geometry={gltf.nodes.Object_11.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_12.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_13.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_14.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_15.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_16.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_17.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_18.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_19.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
 			<T.Mesh geometry={gltf.nodes.Object_20.geometry} material={gltf.materials.Meshesneon11Mtl} />
 			<T.Mesh geometry={gltf.nodes.Object_21.geometry} material={gltf.materials.Meshesrear21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_22.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_23.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_24.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
-			<T.Mesh geometry={gltf.nodes.Object_25.geometry} material={gltf.materials.Meshesbuttons21Mtl} />
+			<T.Mesh
+				geometry={gltf.nodes.Object_22.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_23.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_24.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.Object_25.geometry}
+				material={gltf.materials.Meshesbuttons21Mtl}
+			/>
 			<T.Mesh geometry={gltf.nodes.Object_26.geometry} material={gltf.materials.Meshpart1Mtl} />
 		</T.Group>
 	{:catch error}

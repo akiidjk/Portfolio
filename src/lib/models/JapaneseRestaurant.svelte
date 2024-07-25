@@ -29,42 +29,138 @@ Title: Japanese Restaurant
 			position={[0, 0, -1.55]}
 		/>
 		<T.Group position={[0, 0.27, 0]}>
-			<T.Mesh geometry={gltf.nodes.polySurface513_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface514_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface515_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface516_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface517_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface518_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface519_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface520_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface521_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface522_lambert40_0.geometry} material={gltf.materials.lambert40} />
-			<T.Mesh geometry={gltf.nodes.polySurface523_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface524_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface525_lambert32_0.geometry} material={gltf.materials.lambert32} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface513_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface514_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface515_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface516_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface517_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface518_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface519_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface520_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface521_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface522_lambert40_0.geometry}
+				material={gltf.materials.lambert40}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface523_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface524_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface525_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
 		</T.Group>
 		<T.Group position={[8.52, 0, -11.33]} rotation={[-Math.PI, 0, -Math.PI]}>
-			<T.Mesh geometry={gltf.nodes.polySurface526_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface527_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface528_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface529_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface530_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface531_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface532_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface533_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface534_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface535_lambert40_0.geometry} material={gltf.materials.lambert40} />
-			<T.Mesh geometry={gltf.nodes.polySurface536_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface537_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.polySurface538_lambert32_0.geometry} material={gltf.materials.lambert32} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface526_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface527_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface528_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface529_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface530_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface531_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface532_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface533_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface534_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface535_lambert40_0.geometry}
+				material={gltf.materials.lambert40}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface536_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface537_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface538_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
 		</T.Group>
 		<T.Group position={[-0.02, 0, -6.31]} rotation={[-Math.PI, 0, -Math.PI]}>
-			<T.Mesh geometry={gltf.nodes.polySurface652_lambert4_0.geometry} material={gltf.materials.lambert4} />
-			<T.Mesh geometry={gltf.nodes.polySurface653_phong6_0.geometry} material={gltf.materials.phong6} />
-			<T.Mesh geometry={gltf.nodes.polySurface654_phong6_0.geometry} material={gltf.materials.phong6} />
-			<T.Mesh geometry={gltf.nodes.polySurface655_lambert4_0.geometry} material={gltf.materials.lambert4} />
-			<T.Mesh geometry={gltf.nodes.polySurface656_lambert4_0.geometry} material={gltf.materials.lambert4} />
-			<T.Mesh geometry={gltf.nodes.polySurface657_phong6_0.geometry} material={gltf.materials.phong6} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface652_lambert4_0.geometry}
+				material={gltf.materials.lambert4}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface653_phong6_0.geometry}
+				material={gltf.materials.phong6}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface654_phong6_0.geometry}
+				material={gltf.materials.phong6}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface655_lambert4_0.geometry}
+				material={gltf.materials.lambert4}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface656_lambert4_0.geometry}
+				material={gltf.materials.lambert4}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface657_phong6_0.geometry}
+				material={gltf.materials.phong6}
+			/>
 		</T.Group>
 		<T.Group position={[-0.07, 0, 0]}>
 			<T.Mesh
@@ -72,72 +168,203 @@ Title: Japanese Restaurant
 				material={gltf.materials.lambert4}
 				position={[-0.05, -0.01, 0]}
 			/>
-			<T.Mesh geometry={gltf.nodes.polySurface100_lambert12_0.geometry} material={gltf.materials.lambert12} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface100_lambert12_0.geometry}
+				material={gltf.materials.lambert12}
+			/>
 			<T.Mesh
 				geometry={gltf.nodes.polySurface101_lambert4_0.geometry}
 				material={gltf.materials.lambert4}
 				position={[0.07, -0.02, 0]}
 			/>
-			<T.Mesh geometry={gltf.nodes.polySurface102_lambert12_0.geometry} material={gltf.materials.lambert12} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface102_lambert12_0.geometry}
+				material={gltf.materials.lambert12}
+			/>
 		</T.Group>
-		<T.Group position={[1.65, 8.54, 2.48]} rotation={[1.45, 0, Math.PI / 2]} scale={[0.59, 1.27, 2.3]}>
-			<T.Mesh geometry={gltf.nodes.pCube140_lambert32_0.geometry} material={gltf.materials.lambert32} />
-			<T.Mesh geometry={gltf.nodes.pCube140_lambert33_0.geometry} material={gltf.materials.lambert33} />
+		<T.Group
+			position={[1.65, 8.54, 2.48]}
+			rotation={[1.45, 0, Math.PI / 2]}
+			scale={[0.59, 1.27, 2.3]}
+		>
+			<T.Mesh
+				geometry={gltf.nodes.pCube140_lambert32_0.geometry}
+				material={gltf.materials.lambert32}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube140_lambert33_0.geometry}
+				material={gltf.materials.lambert33}
+			/>
 		</T.Group>
 		<T.Group position={[0.12, 8.56, 2.59]} rotation={[-0.12, 0, 0]} scale={[4.64, 1.78, 0.03]}>
-			<T.Mesh geometry={gltf.nodes.pCube154_lambert11_0.geometry} material={gltf.materials.lambert11} />
-			<T.Mesh geometry={gltf.nodes.pCube154_lambert10_0.geometry} material={gltf.materials.lambert1} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube154_lambert11_0.geometry}
+				material={gltf.materials.lambert11}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube154_lambert10_0.geometry}
+				material={gltf.materials.lambert1}
+			/>
 		</T.Group>
 		<T.Group position={[-6.98, 8.49, 3.53]} scale={[0.04, 0.89, 1.05]}>
-			<T.Mesh geometry={gltf.nodes.pCube155_lambert14_0.geometry} material={gltf.materials.lambert1} />
-			<T.Mesh geometry={gltf.nodes.pCube155_lambert15_0.geometry} material={gltf.materials.lambert15} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube155_lambert14_0.geometry}
+				material={gltf.materials.lambert1}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube155_lambert15_0.geometry}
+				material={gltf.materials.lambert15}
+			/>
 		</T.Group>
 		<T.Group position={[-1.64, 3.38, 2.53]} rotation={[0, Math.PI / 2, 0]} scale={[0.22, 1, 1.19]}>
-			<T.Mesh geometry={gltf.nodes.pCube159_lambert12_0.geometry} material={gltf.materials.lambert12} />
-			<T.Mesh geometry={gltf.nodes.pCube159_lambert13_0.geometry} material={gltf.materials.lambert13} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube159_lambert12_0.geometry}
+				material={gltf.materials.lambert12}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube159_lambert13_0.geometry}
+				material={gltf.materials.lambert13}
+			/>
 		</T.Group>
 		<T.Group position={[-0.01, 0.92, 0.03]} rotation={[0.06, 0, 0.1]}>
-			<T.Mesh geometry={gltf.nodes.polySurface260_lambert16_0.geometry} material={gltf.materials.lambert16} />
-			<T.Mesh geometry={gltf.nodes.polySurface260_lambert17_0.geometry} material={gltf.materials.lambert17} />
-			<T.Mesh geometry={gltf.nodes.polySurface261_lambert16_0.geometry} material={gltf.materials.lambert16} />
-			<T.Mesh geometry={gltf.nodes.polySurface262_lambert16_0.geometry} material={gltf.materials.lambert16} />
-			<T.Mesh geometry={gltf.nodes.polySurface263_lambert16_0.geometry} material={gltf.materials.lambert16} />
-			<T.Mesh geometry={gltf.nodes.polySurface264_lambert36_0.geometry} material={gltf.materials.lambert36} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface260_lambert16_0.geometry}
+				material={gltf.materials.lambert16}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface260_lambert17_0.geometry}
+				material={gltf.materials.lambert17}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface261_lambert16_0.geometry}
+				material={gltf.materials.lambert16}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface262_lambert16_0.geometry}
+				material={gltf.materials.lambert16}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface263_lambert16_0.geometry}
+				material={gltf.materials.lambert16}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface264_lambert36_0.geometry}
+				material={gltf.materials.lambert36}
+			/>
 		</T.Group>
 		<T.Group position={[0, 0, -0.2]}>
-			<T.Mesh geometry={gltf.nodes.polySurface255_lambert7_0.geometry} material={gltf.materials.lambert7} />
-			<T.Mesh geometry={gltf.nodes.polySurface255_phong1_0.geometry} material={gltf.materials.phong1} />
-			<T.Mesh geometry={gltf.nodes.polySurface255_lambert6_0.geometry} material={gltf.materials.lambert6} />
-			<T.Mesh geometry={gltf.nodes.polySurface255_lambert5_0.geometry} material={gltf.materials.lambert5} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface255_lambert7_0.geometry}
+				material={gltf.materials.lambert7}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface255_phong1_0.geometry}
+				material={gltf.materials.phong1}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface255_lambert6_0.geometry}
+				material={gltf.materials.lambert6}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface255_lambert5_0.geometry}
+				material={gltf.materials.lambert5}
+			/>
 		</T.Group>
 		<T.Group position={[0, 0, -0.04]}>
-			<T.Mesh geometry={gltf.nodes.polySurface259_lambert7_0.geometry} material={gltf.materials.lambert7} />
-			<T.Mesh geometry={gltf.nodes.polySurface259_phong1_0.geometry} material={gltf.materials.phong1} />
-			<T.Mesh geometry={gltf.nodes.polySurface259_lambert6_0.geometry} material={gltf.materials.lambert6} />
-			<T.Mesh geometry={gltf.nodes.polySurface259_lambert5_0.geometry} material={gltf.materials.lambert5} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface259_lambert7_0.geometry}
+				material={gltf.materials.lambert7}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface259_phong1_0.geometry}
+				material={gltf.materials.phong1}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface259_lambert6_0.geometry}
+				material={gltf.materials.lambert6}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface259_lambert5_0.geometry}
+				material={gltf.materials.lambert5}
+			/>
 		</T.Group>
-		<T.Group position={[-7.34, 8.49, 3.53]} rotation={[-Math.PI, 0, -Math.PI]} scale={[0.04, 0.89, 1.05]}>
-			<T.Mesh geometry={gltf.nodes.pCube205_lambert14_0.geometry} material={gltf.materials.lambert1} />
-			<T.Mesh geometry={gltf.nodes.pCube205_lambert15_0.geometry} material={gltf.materials.lambert15} />
+		<T.Group
+			position={[-7.34, 8.49, 3.53]}
+			rotation={[-Math.PI, 0, -Math.PI]}
+			scale={[0.04, 0.89, 1.05]}
+		>
+			<T.Mesh
+				geometry={gltf.nodes.pCube205_lambert14_0.geometry}
+				material={gltf.materials.lambert1}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube205_lambert15_0.geometry}
+				material={gltf.materials.lambert15}
+			/>
 		</T.Group>
 		<T.Group position={[0, 0, -0.26]}>
-			<T.Mesh geometry={gltf.nodes.polySurface497_lambert36_0.geometry} material={gltf.materials.lambert36} />
-			<T.Mesh geometry={gltf.nodes.polySurface498_lambert8_0.geometry} material={gltf.materials.lambert8} />
-			<T.Mesh geometry={gltf.nodes.polySurface498_lambert9_0.geometry} material={gltf.materials.lambert9} />
-			<T.Mesh geometry={gltf.nodes.polySurface499_lambert9_0.geometry} material={gltf.materials.lambert9} />
-			<T.Mesh geometry={gltf.nodes.polySurface500_lambert9_0.geometry} material={gltf.materials.lambert9} />
-			<T.Mesh geometry={gltf.nodes.polySurface501_lambert9_0.geometry} material={gltf.materials.lambert9} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface497_lambert36_0.geometry}
+				material={gltf.materials.lambert36}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface498_lambert8_0.geometry}
+				material={gltf.materials.lambert8}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface498_lambert9_0.geometry}
+				material={gltf.materials.lambert9}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface499_lambert9_0.geometry}
+				material={gltf.materials.lambert9}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface500_lambert9_0.geometry}
+				material={gltf.materials.lambert9}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface501_lambert9_0.geometry}
+				material={gltf.materials.lambert9}
+			/>
 		</T.Group>
 		<T.Group position={[2.11, -0.02, 11.63]} rotation={[-0.5, 1.31, 0.39]} scale={0.6}>
-			<T.Mesh geometry={gltf.nodes.polySurface434_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface435_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface436_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface437_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface438_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface439_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface440_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface441_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface442_lambert19_0.geometry} material={gltf.materials.lambert19} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface434_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface435_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface436_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface437_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface438_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface439_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface440_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface441_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface442_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
 		</T.Group>
 		<T.Group position={[4.12, 0.5, 11.77]} rotation={[-0.1, 1.42, -0.04]} scale={[0.6, 0.59, 0.6]}>
 			<T.Mesh
@@ -158,12 +385,30 @@ Title: Japanese Restaurant
 				position={[-6.44, -3.21, -2.3]}
 				scale={1.6}
 			/>
-			<T.Mesh geometry={gltf.nodes.polySurface398_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface399_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface400_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface401_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface402_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface403_lambert19_0.geometry} material={gltf.materials.lambert19} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface398_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface399_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface400_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface401_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface402_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface403_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
 		</T.Group>
 		<T.Group position={[11.99, -0.52, 9.44]} rotation={[-3.12, 0.27, 3.1]} scale={[0.6, 0.61, 0.6]}>
 			<T.Mesh
@@ -184,28 +429,82 @@ Title: Japanese Restaurant
 				position={[-4.67, -2.32, -1.67]}
 				scale={1.43}
 			/>
-			<T.Mesh geometry={gltf.nodes.polySurface428_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface429_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface430_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface431_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface432_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface433_lambert19_0.geometry} material={gltf.materials.lambert19} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface428_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface429_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface430_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface431_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface432_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface433_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
 		</T.Group>
 		<T.Group position={[5.3, -0.72, -1.3]} rotation={[-0.34, -0.97, -0.3]} scale={0.65}>
-			<T.Mesh geometry={gltf.nodes.polySurface404_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface405_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface406_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface407_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface408_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface409_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface410_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface411_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface412_lambert19_0.geometry} material={gltf.materials.lambert19} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface404_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface405_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface406_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface407_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface408_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface409_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface410_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface411_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface412_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
 		</T.Group>
 		<T.Group position={[-13.12, 0, 11.15]} rotation={[-Math.PI, 0, -Math.PI]}>
-			<T.Mesh geometry={gltf.nodes.polySurface339_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface340_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface341_lambert18_0.geometry} material={gltf.materials.lambert18} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface339_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface340_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface341_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
 			<T.Mesh
 				geometry={gltf.nodes.polySurface342_lambert18_0.geometry}
 				material={gltf.materials.lambert18}
@@ -224,39 +523,138 @@ Title: Japanese Restaurant
 				position={[2.25, -1.1, -1.99]}
 				scale={1.36}
 			/>
-			<T.Mesh geometry={gltf.nodes.polySurface345_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface346_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface347_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface348_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface349_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface350_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface351_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface352_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface353_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface354_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface355_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface356_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface357_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface358_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface359_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface360_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface361_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface362_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface363_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface364_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface365_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface366_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface367_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface368_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface369_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface370_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface371_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface372_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface373_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface374_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface375_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface376_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface377_lambert19_0.geometry} material={gltf.materials.lambert19} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface345_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface346_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface347_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface348_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface349_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface350_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface351_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface352_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface353_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface354_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface355_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface356_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface357_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface358_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface359_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface360_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface361_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface362_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface363_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface364_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface365_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface366_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface367_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface368_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface369_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface370_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface371_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface372_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface373_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface374_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface375_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface376_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface377_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
 			<T.Mesh
 				geometry={gltf.nodes.polySurface378_lambert18_0.geometry}
 				material={gltf.materials.lambert18}
@@ -275,14 +673,38 @@ Title: Japanese Restaurant
 				position={[6.13, -2.34, -4.47]}
 				scale={1.82}
 			/>
-			<T.Mesh geometry={gltf.nodes.polySurface381_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface382_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface383_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface384_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface385_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface386_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface387_lambert20_0.geometry} material={gltf.materials.lambert20} />
-			<T.Mesh geometry={gltf.nodes.polySurface387_lambert21_0.geometry} material={gltf.materials.lambert21} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface381_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface382_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface383_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface384_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface385_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface386_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface387_lambert20_0.geometry}
+				material={gltf.materials.lambert20}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface387_lambert21_0.geometry}
+				material={gltf.materials.lambert21}
+			/>
 			<T.Mesh
 				geometry={gltf.nodes.polySurface388_lambert19_0.geometry}
 				material={gltf.materials.lambert19}
@@ -308,42 +730,150 @@ Title: Japanese Restaurant
 				position={[4.8, -2.49, -2.7]}
 				scale={1.65}
 			/>
-			<T.Mesh geometry={gltf.nodes.polySurface289_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface290_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface291_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface292_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface293_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface294_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface295_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface296_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface297_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface298_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface299_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface300_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface301_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface302_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface303_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface304_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface305_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface306_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface307_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface308_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface309_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface310_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface311_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface312_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface313_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface314_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface315_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface316_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface317_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface318_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface319_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface320_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface321_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface322_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface323_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface324_lambert19_0.geometry} material={gltf.materials.lambert19} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface289_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface290_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface291_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface292_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface293_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface294_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface295_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface296_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface297_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface298_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface299_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface300_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface301_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface302_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface303_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface304_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface305_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface306_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface307_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface308_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface309_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface310_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface311_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface312_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface313_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface314_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface315_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface316_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface317_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface318_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface319_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface320_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface321_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface322_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface323_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface324_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
 			<T.Mesh
 				geometry={gltf.nodes.polySurface325_lambert18_0.geometry}
 				material={gltf.materials.lambert18}
@@ -362,14 +892,38 @@ Title: Japanese Restaurant
 				position={[4.39, -1.66, -1.6]}
 				scale={1.58}
 			/>
-			<T.Mesh geometry={gltf.nodes.polySurface328_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface329_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface330_lambert18_0.geometry} material={gltf.materials.lambert18} />
-			<T.Mesh geometry={gltf.nodes.polySurface331_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface332_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface333_lambert19_0.geometry} material={gltf.materials.lambert19} />
-			<T.Mesh geometry={gltf.nodes.polySurface334_lambert20_0.geometry} material={gltf.materials.lambert20} />
-			<T.Mesh geometry={gltf.nodes.polySurface334_lambert21_0.geometry} material={gltf.materials.lambert21} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface328_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface329_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface330_lambert18_0.geometry}
+				material={gltf.materials.lambert18}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface331_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface332_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface333_lambert19_0.geometry}
+				material={gltf.materials.lambert19}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface334_lambert20_0.geometry}
+				material={gltf.materials.lambert20}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface334_lambert21_0.geometry}
+				material={gltf.materials.lambert21}
+			/>
 			<T.Mesh
 				geometry={gltf.nodes.polySurface335_lambert19_0.geometry}
 				material={gltf.materials.lambert19}
@@ -410,105 +964,306 @@ Title: Japanese Restaurant
 			/>
 		</T.Group>
 		<T.Group position={[5.39, 2.87, 0.93]} rotation={[0.23, 0, 0]} scale={[0.51, 0.51, 0.58]}>
-			<T.Mesh geometry={gltf.nodes.pCube236_lambert23_0.geometry} material={gltf.materials.lambert23} />
-			<T.Mesh geometry={gltf.nodes.pCube236_lambert25_0.geometry} material={gltf.materials.lambert25} />
-			<T.Mesh geometry={gltf.nodes.pCube236_lambert24_0.geometry} material={gltf.materials.lambert24} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube236_lambert23_0.geometry}
+				material={gltf.materials.lambert23}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube236_lambert25_0.geometry}
+				material={gltf.materials.lambert25}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube236_lambert24_0.geometry}
+				material={gltf.materials.lambert24}
+			/>
 		</T.Group>
 		<T.Group position={[4.62, 2.82, 1.15]} rotation={[0.23, 0, 0]} scale={[0.51, 0.51, 0.58]}>
-			<T.Mesh geometry={gltf.nodes.pCube237_lambert23_0.geometry} material={gltf.materials.lambert23} />
-			<T.Mesh geometry={gltf.nodes.pCube237_lambert25_0.geometry} material={gltf.materials.lambert25} />
-			<T.Mesh geometry={gltf.nodes.pCube237_lambert24_0.geometry} material={gltf.materials.lambert24} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube237_lambert23_0.geometry}
+				material={gltf.materials.lambert23}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube237_lambert25_0.geometry}
+				material={gltf.materials.lambert25}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube237_lambert24_0.geometry}
+				material={gltf.materials.lambert24}
+			/>
 		</T.Group>
 		<T.Group position={[3.76, 2.82, 1.15]} rotation={[0.23, 0, 0]} scale={[0.51, 0.51, 0.58]}>
-			<T.Mesh geometry={gltf.nodes.pCube238_lambert23_0.geometry} material={gltf.materials.lambert23} />
-			<T.Mesh geometry={gltf.nodes.pCube238_lambert25_0.geometry} material={gltf.materials.lambert25} />
-			<T.Mesh geometry={gltf.nodes.pCube238_lambert24_0.geometry} material={gltf.materials.lambert24} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube238_lambert23_0.geometry}
+				material={gltf.materials.lambert23}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube238_lambert25_0.geometry}
+				material={gltf.materials.lambert25}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube238_lambert24_0.geometry}
+				material={gltf.materials.lambert24}
+			/>
 		</T.Group>
 		<T.Group position={[2.99, 2.86, 1]} rotation={[0.23, 0, 0]} scale={[0.51, 0.51, 0.58]}>
-			<T.Mesh geometry={gltf.nodes.pCube239_lambert23_0.geometry} material={gltf.materials.lambert23} />
-			<T.Mesh geometry={gltf.nodes.pCube239_lambert25_0.geometry} material={gltf.materials.lambert25} />
-			<T.Mesh geometry={gltf.nodes.pCube239_lambert24_0.geometry} material={gltf.materials.lambert24} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube239_lambert23_0.geometry}
+				material={gltf.materials.lambert23}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube239_lambert25_0.geometry}
+				material={gltf.materials.lambert25}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube239_lambert24_0.geometry}
+				material={gltf.materials.lambert24}
+			/>
 		</T.Group>
 		<T.Group position={[2.3, 2.79, 1.27]} rotation={[0.23, 0, 0]} scale={[0.51, 0.51, 0.58]}>
-			<T.Mesh geometry={gltf.nodes.pCube240_lambert23_0.geometry} material={gltf.materials.lambert23} />
-			<T.Mesh geometry={gltf.nodes.pCube240_lambert25_0.geometry} material={gltf.materials.lambert25} />
-			<T.Mesh geometry={gltf.nodes.pCube240_lambert24_0.geometry} material={gltf.materials.lambert24} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube240_lambert23_0.geometry}
+				material={gltf.materials.lambert23}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube240_lambert25_0.geometry}
+				material={gltf.materials.lambert25}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube240_lambert24_0.geometry}
+				material={gltf.materials.lambert24}
+			/>
 		</T.Group>
 		<T.Group position={[-0.19, 3.93, -2.84]} rotation={[0.24, 0, 0]} scale={0.56}>
-			<T.Mesh geometry={gltf.nodes.pCube244_lambert26_0.geometry} material={gltf.materials.lambert26} />
-			<T.Mesh geometry={gltf.nodes.pCube244_lambert27_0.geometry} material={gltf.materials.lambert27} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube244_lambert26_0.geometry}
+				material={gltf.materials.lambert26}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube244_lambert27_0.geometry}
+				material={gltf.materials.lambert27}
+			/>
 		</T.Group>
 		<T.Group position={[-1.58, 3.93, -2.83]} rotation={[0.24, 0.12, 0]} scale={[0.58, 0.56, 0.58]}>
-			<T.Mesh geometry={gltf.nodes.pCube245_lambert26_0.geometry} material={gltf.materials.lambert26} />
-			<T.Mesh geometry={gltf.nodes.pCube245_lambert27_0.geometry} material={gltf.materials.lambert27} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube245_lambert26_0.geometry}
+				material={gltf.materials.lambert26}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube245_lambert27_0.geometry}
+				material={gltf.materials.lambert27}
+			/>
 		</T.Group>
 		<T.Group position={[-1.31, 4.29, -4.27]} rotation={[0.24, 0.07, 0]} scale={[0.62, 0.56, 0.62]}>
-			<T.Mesh geometry={gltf.nodes.pCube246_lambert26_0.geometry} material={gltf.materials.lambert26} />
-			<T.Mesh geometry={gltf.nodes.pCube246_lambert27_0.geometry} material={gltf.materials.lambert27} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube246_lambert26_0.geometry}
+				material={gltf.materials.lambert26}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube246_lambert27_0.geometry}
+				material={gltf.materials.lambert27}
+			/>
 		</T.Group>
 		<T.Group position={[0.47, 4.01, -3.16]} rotation={[0.24, -0.16, 0]} scale={[0.49, 0.56, 0.49]}>
-			<T.Mesh geometry={gltf.nodes.pCube247_lambert26_0.geometry} material={gltf.materials.lambert26} />
-			<T.Mesh geometry={gltf.nodes.pCube247_lambert27_0.geometry} material={gltf.materials.lambert27} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube247_lambert26_0.geometry}
+				material={gltf.materials.lambert26}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube247_lambert27_0.geometry}
+				material={gltf.materials.lambert27}
+			/>
 		</T.Group>
 		<T.Group position={[-0.52, 4.39, -3.23]} rotation={[0.24, 0, 0]} scale={0.56}>
-			<T.Mesh geometry={gltf.nodes.pCube248_lambert26_0.geometry} material={gltf.materials.lambert26} />
-			<T.Mesh geometry={gltf.nodes.pCube248_lambert27_0.geometry} material={gltf.materials.lambert27} />
+			<T.Mesh
+				geometry={gltf.nodes.pCube248_lambert26_0.geometry}
+				material={gltf.materials.lambert26}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.pCube248_lambert27_0.geometry}
+				material={gltf.materials.lambert27}
+			/>
 		</T.Group>
 		<T.Group position={[0, 0.02, -0.13]}>
-			<T.Mesh geometry={gltf.nodes.polySurface473_lambert28_0.geometry} material={gltf.materials.lambert28} />
-			<T.Mesh geometry={gltf.nodes.polySurface474_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface475_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface476_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface477_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface478_lambert30_0.geometry} material={gltf.materials.lambert30} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface473_lambert28_0.geometry}
+				material={gltf.materials.lambert28}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface474_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface475_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface476_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface477_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface478_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
 		</T.Group>
 		<T.Group position={[0.31, 0, 0]}>
-			<T.Mesh geometry={gltf.nodes.polySurface467_lambert28_0.geometry} material={gltf.materials.lambert28} />
-			<T.Mesh geometry={gltf.nodes.polySurface468_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface469_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface470_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface471_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface472_lambert29_0.geometry} material={gltf.materials.lambert29} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface467_lambert28_0.geometry}
+				material={gltf.materials.lambert28}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface468_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface469_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface470_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface471_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface472_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
 		</T.Group>
 		<T.Group position={[0.68, 0.02, -0.24]} rotation={[0, -0.09, 0]}>
-			<T.Mesh geometry={gltf.nodes.polySurface461_lambert28_0.geometry} material={gltf.materials.lambert28} />
-			<T.Mesh geometry={gltf.nodes.polySurface462_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface463_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface464_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface465_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface466_lambert30_0.geometry} material={gltf.materials.lambert30} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface461_lambert28_0.geometry}
+				material={gltf.materials.lambert28}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface462_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface463_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface464_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface465_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface466_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
 		</T.Group>
 		<T.Group position={[-0.32, 0.02, -0.04]} rotation={[0, 0.07, 0]}>
-			<T.Mesh geometry={gltf.nodes.polySurface485_lambert28_0.geometry} material={gltf.materials.lambert28} />
-			<T.Mesh geometry={gltf.nodes.polySurface486_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface487_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface488_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface489_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface490_lambert29_0.geometry} material={gltf.materials.lambert29} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface485_lambert28_0.geometry}
+				material={gltf.materials.lambert28}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface486_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface487_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface488_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface489_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface490_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
 		</T.Group>
 		<T.Group position={[-0.22, 0.1, 0.2]} rotation={[0, 0.09, 0]}>
-			<T.Mesh geometry={gltf.nodes.polySurface479_lambert28_0.geometry} material={gltf.materials.lambert28} />
-			<T.Mesh geometry={gltf.nodes.polySurface480_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface481_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface482_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface483_lambert29_0.geometry} material={gltf.materials.lambert29} />
-			<T.Mesh geometry={gltf.nodes.polySurface484_lambert29_0.geometry} material={gltf.materials.lambert29} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface479_lambert28_0.geometry}
+				material={gltf.materials.lambert28}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface480_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface481_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface482_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface483_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface484_lambert29_0.geometry}
+				material={gltf.materials.lambert29}
+			/>
 		</T.Group>
 		<T.Group position={[0.27, 0.09, -0.15]} rotation={[0, -0.07, 0]}>
-			<T.Mesh geometry={gltf.nodes.polySurface455_lambert28_0.geometry} material={gltf.materials.lambert28} />
-			<T.Mesh geometry={gltf.nodes.polySurface456_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface457_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface458_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface459_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface460_lambert30_0.geometry} material={gltf.materials.lambert30} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface455_lambert28_0.geometry}
+				material={gltf.materials.lambert28}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface456_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface457_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface458_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface459_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface460_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
 		</T.Group>
 		<T.Group position={[-0.37, 0.02, -0.01]} rotation={[0, -0.02, 0]}>
-			<T.Mesh geometry={gltf.nodes.polySurface491_lambert28_0.geometry} material={gltf.materials.lambert28} />
-			<T.Mesh geometry={gltf.nodes.polySurface492_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface493_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface494_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface495_lambert30_0.geometry} material={gltf.materials.lambert30} />
-			<T.Mesh geometry={gltf.nodes.polySurface496_lambert30_0.geometry} material={gltf.materials.lambert30} />
+			<T.Mesh
+				geometry={gltf.nodes.polySurface491_lambert28_0.geometry}
+				material={gltf.materials.lambert28}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface492_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface493_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface494_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface495_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
+			<T.Mesh
+				geometry={gltf.nodes.polySurface496_lambert30_0.geometry}
+				material={gltf.materials.lambert30}
+			/>
 		</T.Group>
 		<T.Mesh
 			geometry={gltf.nodes.pCube1_lambert35_0.geometry}
@@ -616,16 +1371,28 @@ Title: Japanese Restaurant
 			position={[-7.16, 8.36, 3.53]}
 			scale={[1, 1, 1.32]}
 		/>
-		<T.Mesh geometry={gltf.nodes.pCube52_lambert31_0.geometry} material={gltf.materials.lambert31} />
+		<T.Mesh
+			geometry={gltf.nodes.pCube52_lambert31_0.geometry}
+			material={gltf.materials.lambert31}
+		/>
 		<T.Mesh
 			geometry={gltf.nodes.pCube53_lambert31_0.geometry}
 			material={gltf.materials.lambert31}
 			position={[0, 6.92, -0.6]}
 			scale={[10.36, 0.33, 10.36]}
 		/>
-		<T.Mesh geometry={gltf.nodes.pCube83_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.pCube62_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.pCube10_lambert32_0.geometry} material={gltf.materials.lambert32} />
+		<T.Mesh
+			geometry={gltf.nodes.pCube83_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.pCube62_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.pCube10_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
 		<T.Mesh
 			geometry={gltf.nodes.pCube84_lambert32_0.geometry}
 			material={gltf.materials.lambert32}
@@ -729,9 +1496,18 @@ Title: Japanese Restaurant
 			rotation={[0, Math.PI / 2, 0]}
 			scale={[0.23, 0.12, 22.21]}
 		/>
-		<T.Mesh geometry={gltf.nodes.pCube111_lambert33_0.geometry} material={gltf.materials.lambert33} />
-		<T.Mesh geometry={gltf.nodes.pCube112_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.polySurface53_lambert33_0.geometry} material={gltf.materials.lambert33} />
+		<T.Mesh
+			geometry={gltf.nodes.pCube111_lambert33_0.geometry}
+			material={gltf.materials.lambert33}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.pCube112_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface53_lambert33_0.geometry}
+			material={gltf.materials.lambert33}
+		/>
 		<T.Mesh
 			geometry={gltf.nodes.polySurface64_phong6_0.geometry}
 			material={gltf.materials.phong6}
@@ -815,12 +1591,30 @@ Title: Japanese Restaurant
 			rotation={[0.3, 0, 0]}
 			scale={[1, 1, 0.82]}
 		/>
-		<T.Mesh geometry={gltf.nodes.polySurface646_phong6_0.geometry} material={gltf.materials.phong6} />
-		<T.Mesh geometry={gltf.nodes.polySurface647_lambert4_0.geometry} material={gltf.materials.lambert4} />
-		<T.Mesh geometry={gltf.nodes.polySurface648_phong6_0.geometry} material={gltf.materials.phong6} />
-		<T.Mesh geometry={gltf.nodes.polySurface649_lambert4_0.geometry} material={gltf.materials.lambert4} />
-		<T.Mesh geometry={gltf.nodes.polySurface650_phong6_0.geometry} material={gltf.materials.phong6} />
-		<T.Mesh geometry={gltf.nodes.polySurface651_lambert4_0.geometry} material={gltf.materials.lambert4} />
+		<T.Mesh
+			geometry={gltf.nodes.polySurface646_phong6_0.geometry}
+			material={gltf.materials.phong6}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface647_lambert4_0.geometry}
+			material={gltf.materials.lambert4}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface648_phong6_0.geometry}
+			material={gltf.materials.phong6}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface649_lambert4_0.geometry}
+			material={gltf.materials.lambert4}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface650_phong6_0.geometry}
+			material={gltf.materials.phong6}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface651_lambert4_0.geometry}
+			material={gltf.materials.lambert4}
+		/>
 		<T.Mesh
 			geometry={gltf.nodes.pCylinder14_lambert1_0.geometry}
 			material={gltf.materials.lambert1}
@@ -853,130 +1647,484 @@ Title: Japanese Restaurant
 			position={[-4.08, 6.26, 1.32]}
 			scale={[3.61, 1, 1]}
 		/>
-		<T.Mesh geometry={gltf.nodes.polySurface502_lambert40_0.geometry} material={gltf.materials.lambert40} />
-		<T.Mesh geometry={gltf.nodes.polySurface503_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.polySurface504_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.polySurface505_phong5_0.geometry} material={gltf.materials.phong5} />
-		<T.Mesh geometry={gltf.nodes.polySurface506_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.polySurface507_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.polySurface508_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.polySurface509_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.polySurface510_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.polySurface511_lambert32_0.geometry} material={gltf.materials.lambert32} />
-		<T.Mesh geometry={gltf.nodes.polySurface512_lambert32_0.geometry} material={gltf.materials.lambert32} />
+		<T.Mesh
+			geometry={gltf.nodes.polySurface502_lambert40_0.geometry}
+			material={gltf.materials.lambert40}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface503_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface504_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface505_phong5_0.geometry}
+			material={gltf.materials.phong5}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface506_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface507_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface508_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface509_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface510_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface511_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface512_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
 		<T.Mesh
 			geometry={gltf.nodes.pCube153_lambert38_0.geometry}
 			material={gltf.materials.lambert38}
 			position={[0, 1.36, -0.06]}
 			scale={[1, 0.8, 1]}
 		/>
-		<T.Mesh geometry={gltf.nodes.polySurface539_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface540_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface541_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface542_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface543_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface544_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface545_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface546_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface547_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface548_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface549_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface550_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface551_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface552_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface553_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface554_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface555_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface556_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface557_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface558_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface559_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface560_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface561_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface562_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface563_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface564_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface565_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface566_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface567_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface568_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface569_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface570_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface571_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface572_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface573_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface574_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface575_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface576_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface577_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface578_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface579_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface580_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface581_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface582_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface583_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface584_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface585_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface586_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface587_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface588_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface589_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface590_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface591_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface592_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface593_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface594_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface595_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface596_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface597_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface598_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface599_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface600_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface601_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface602_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface603_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface604_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface605_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface606_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface607_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface608_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface609_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface610_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface611_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface612_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface613_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface614_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface615_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface616_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface617_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface618_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface619_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface620_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface621_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface622_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface623_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface624_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface625_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface626_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface627_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface628_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface629_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface630_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface631_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface632_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface633_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface634_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface635_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface636_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface637_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface638_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface639_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface640_lambert42_0.geometry} material={gltf.materials.lambert42} />
-		<T.Mesh geometry={gltf.nodes.polySurface641_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface642_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface643_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface644_lambert41_0.geometry} material={gltf.materials.lambert41} />
-		<T.Mesh geometry={gltf.nodes.polySurface645_lambert41_0.geometry} material={gltf.materials.lambert41} />
+		<T.Mesh
+			geometry={gltf.nodes.polySurface539_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface540_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface541_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface542_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface543_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface544_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface545_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface546_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface547_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface548_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface549_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface550_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface551_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface552_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface553_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface554_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface555_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface556_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface557_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface558_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface559_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface560_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface561_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface562_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface563_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface564_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface565_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface566_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface567_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface568_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface569_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface570_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface571_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface572_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface573_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface574_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface575_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface576_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface577_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface578_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface579_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface580_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface581_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface582_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface583_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface584_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface585_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface586_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface587_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface588_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface589_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface590_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface591_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface592_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface593_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface594_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface595_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface596_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface597_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface598_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface599_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface600_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface601_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface602_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface603_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface604_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface605_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface606_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface607_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface608_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface609_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface610_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface611_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface612_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface613_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface614_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface615_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface616_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface617_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface618_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface619_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface620_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface621_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface622_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface623_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface624_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface625_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface626_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface627_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface628_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface629_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface630_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface631_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface632_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface633_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface634_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface635_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface636_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface637_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface638_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface639_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface640_lambert42_0.geometry}
+			material={gltf.materials.lambert42}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface641_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface642_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface643_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface644_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface645_lambert41_0.geometry}
+			material={gltf.materials.lambert41}
+		/>
 		<T.Mesh
 			geometry={gltf.nodes.pCube204_lambert12_0.geometry}
 			material={gltf.materials.lambert12}
@@ -1060,20 +2208,59 @@ Title: Japanese Restaurant
 			scale={[1, 1, 1.18]}
 		/>
 		<T.Mesh geometry={gltf.nodes.pCylinder39_phong1_0.geometry} material={gltf.materials.phong1} />
-		<T.Mesh geometry={gltf.nodes.pCylinder39_lambert6_0.geometry} material={gltf.materials.lambert6} />
-		<T.Mesh geometry={gltf.nodes.pCylinder39_lambert5_0.geometry} material={gltf.materials.lambert5} />
-		<T.Mesh geometry={gltf.nodes.pCylinder39_lambert7_0.geometry} material={gltf.materials.lambert7} />
-		<T.Mesh geometry={gltf.nodes.polySurface257_lambert7_0.geometry} material={gltf.materials.lambert7} />
-		<T.Mesh geometry={gltf.nodes.polySurface257_phong1_0.geometry} material={gltf.materials.phong1} />
-		<T.Mesh geometry={gltf.nodes.polySurface257_lambert6_0.geometry} material={gltf.materials.lambert6} />
-		<T.Mesh geometry={gltf.nodes.polySurface257_lambert5_0.geometry} material={gltf.materials.lambert5} />
-		<T.Mesh geometry={gltf.nodes.polySurface258_lambert7_0.geometry} material={gltf.materials.lambert7} />
-		<T.Mesh geometry={gltf.nodes.polySurface258_phong1_0.geometry} material={gltf.materials.phong1} />
-		<T.Mesh geometry={gltf.nodes.polySurface258_lambert6_0.geometry} material={gltf.materials.lambert6} />
-		<T.Mesh geometry={gltf.nodes.polySurface258_lambert5_0.geometry} material={gltf.materials.lambert5} />
+		<T.Mesh
+			geometry={gltf.nodes.pCylinder39_lambert6_0.geometry}
+			material={gltf.materials.lambert6}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.pCylinder39_lambert5_0.geometry}
+			material={gltf.materials.lambert5}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.pCylinder39_lambert7_0.geometry}
+			material={gltf.materials.lambert7}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface257_lambert7_0.geometry}
+			material={gltf.materials.lambert7}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface257_phong1_0.geometry}
+			material={gltf.materials.phong1}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface257_lambert6_0.geometry}
+			material={gltf.materials.lambert6}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface257_lambert5_0.geometry}
+			material={gltf.materials.lambert5}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface258_lambert7_0.geometry}
+			material={gltf.materials.lambert7}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface258_phong1_0.geometry}
+			material={gltf.materials.phong1}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface258_lambert6_0.geometry}
+			material={gltf.materials.lambert6}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface258_lambert5_0.geometry}
+			material={gltf.materials.lambert5}
+		/>
 		<T.Mesh geometry={gltf.nodes.pDisc1_lambert1_0.geometry} material={gltf.materials.lambert1} />
-		<T.Mesh geometry={gltf.nodes.pCube214_lambert20_0.geometry} material={gltf.materials.lambert20} />
-		<T.Mesh geometry={gltf.nodes.pCube214_lambert21_0.geometry} material={gltf.materials.lambert21} />
+		<T.Mesh
+			geometry={gltf.nodes.pCube214_lambert20_0.geometry}
+			material={gltf.materials.lambert20}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.pCube214_lambert21_0.geometry}
+			material={gltf.materials.lambert21}
+		/>
 		<T.Mesh
 			geometry={gltf.nodes.polySurface413_lambert18_0.geometry}
 			material={gltf.materials.lambert18}
@@ -1092,15 +2279,42 @@ Title: Japanese Restaurant
 			position={[-3.83, -2.11, -2.91]}
 			scale={1.55}
 		/>
-		<T.Mesh geometry={gltf.nodes.polySurface416_lambert18_0.geometry} material={gltf.materials.lambert18} />
-		<T.Mesh geometry={gltf.nodes.polySurface417_lambert18_0.geometry} material={gltf.materials.lambert18} />
-		<T.Mesh geometry={gltf.nodes.polySurface418_lambert18_0.geometry} material={gltf.materials.lambert18} />
-		<T.Mesh geometry={gltf.nodes.polySurface419_lambert19_0.geometry} material={gltf.materials.lambert19} />
-		<T.Mesh geometry={gltf.nodes.polySurface420_lambert19_0.geometry} material={gltf.materials.lambert19} />
-		<T.Mesh geometry={gltf.nodes.polySurface421_lambert19_0.geometry} material={gltf.materials.lambert19} />
-		<T.Mesh geometry={gltf.nodes.polySurface422_lambert18_0.geometry} material={gltf.materials.lambert18} />
-		<T.Mesh geometry={gltf.nodes.polySurface423_lambert18_0.geometry} material={gltf.materials.lambert18} />
-		<T.Mesh geometry={gltf.nodes.polySurface424_lambert18_0.geometry} material={gltf.materials.lambert18} />
+		<T.Mesh
+			geometry={gltf.nodes.polySurface416_lambert18_0.geometry}
+			material={gltf.materials.lambert18}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface417_lambert18_0.geometry}
+			material={gltf.materials.lambert18}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface418_lambert18_0.geometry}
+			material={gltf.materials.lambert18}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface419_lambert19_0.geometry}
+			material={gltf.materials.lambert19}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface420_lambert19_0.geometry}
+			material={gltf.materials.lambert19}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface421_lambert19_0.geometry}
+			material={gltf.materials.lambert19}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface422_lambert18_0.geometry}
+			material={gltf.materials.lambert18}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface423_lambert18_0.geometry}
+			material={gltf.materials.lambert18}
+		/>
+		<T.Mesh
+			geometry={gltf.nodes.polySurface424_lambert18_0.geometry}
+			material={gltf.materials.lambert18}
+		/>
 		<T.Mesh
 			geometry={gltf.nodes.polySurface284_lambert19_0.geometry}
 			material={gltf.materials.lambert19}
@@ -1168,7 +2382,10 @@ Title: Japanese Restaurant
 			rotation={[1.07, 0.16, -0.61]}
 			scale={0.14}
 		/>
-		<T.Mesh geometry={gltf.nodes.pCube235_lambert32_0.geometry} material={gltf.materials.lambert32} />
+		<T.Mesh
+			geometry={gltf.nodes.pCube235_lambert32_0.geometry}
+			material={gltf.materials.lambert32}
+		/>
 		<T.Mesh
 			geometry={gltf.nodes.pCube249_phong3_0.geometry}
 			material={gltf.materials.phong3}

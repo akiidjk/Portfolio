@@ -20,7 +20,7 @@
 </T.PerspectiveCamera>
 
 <!-- Luce ambientale per illuminazione generale -->
-<T.AmbientLight intensity={0.8} color={"#fff"} />
+<T.AmbientLight intensity={0.8} color={'#fff'} />
 
 <!-- Luce direzionale per illuminazione direzionale -->
 <T.DirectionalLight position={[10, 10, 5]} intensity={0.5} />

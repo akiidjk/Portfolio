@@ -23,12 +23,18 @@ Title: FREE 1975 Porsche 911 (930) Turbo
 	{#await gltf}
 		<slot name="fallback" />
 	{:then gltf}
-		<T.Group rotation={[-Math.PI / 2, 0, 0]} scale={1} position={[0,0,0]}>
+		<T.Group rotation={[-Math.PI / 2, 0, 0]} scale={1} position={[0, 0, 0]}>
 			<T.Group rotation={[Math.PI / 2, 0, 0]}>
 				<!--Targa-->
 				<T.Group position={[0, 0.47, 3.12]} rotation={[-2.83, 0, Math.PI]} scale={[1, 0.96, 1]}>
-					<T.Mesh geometry={gltf.nodes.Object_4.geometry} material={gltf.materials['930_plastics']} />
-					<T.Mesh geometry={gltf.nodes.Object_5.geometry} material={gltf.materials['930_stickers']} />
+					<T.Mesh
+						geometry={gltf.nodes.Object_4.geometry}
+						material={gltf.materials['930_plastics']}
+					/>
+					<T.Mesh
+						geometry={gltf.nodes.Object_5.geometry}
+						material={gltf.materials['930_stickers']}
+					/>
 					<T.Mesh geometry={gltf.nodes.Object_6.geometry} material={gltf.materials.plate} />
 				</T.Group>
 				<!--Ruota 1-->
@@ -43,26 +49,47 @@ Title: FREE 1975 Porsche 911 (930) Turbo
 				</T.Group>
 				<!-- Fanali piccoli-->
 				<T.Group position={[0.66, 0.48, 3.11]} rotation={[0.16, 0.1, -0.02]} scale={0.91}>
-					<T.Mesh geometry={gltf.nodes.Object_44.geometry} material={gltf.materials['930_plastics']} />
-					<T.Mesh geometry={gltf.nodes.Object_45.geometry} material={gltf.materials['930_chromes']} />
+					<T.Mesh
+						geometry={gltf.nodes.Object_44.geometry}
+						material={gltf.materials['930_plastics']}
+					/>
+					<T.Mesh
+						geometry={gltf.nodes.Object_45.geometry}
+						material={gltf.materials['930_chromes']}
+					/>
 				</T.Group>
 				<!--Scheletro 1-->
 				<T.Group position={[0.01, 1.67, 0.65]} scale={0.06}>
 					<T.Mesh geometry={gltf.nodes.Object_55.geometry} material={gltf.materials.black} />
-					<T.Mesh geometry={gltf.nodes.Object_56.geometry} material={gltf.materials['930_plastics']} />
+					<T.Mesh
+						geometry={gltf.nodes.Object_56.geometry}
+						material={gltf.materials['930_plastics']}
+					/>
 				</T.Group>
 				<!--Scheletro 2-->
 				<T.Group position={[0.79, 0.49, -2.38]} rotation={[-1.77, -0.01, -0.46]} scale={6.31}>
-					<T.Mesh geometry={gltf.nodes.Object_58.geometry} material={gltf.materials['930_chromes']} />
+					<T.Mesh
+						geometry={gltf.nodes.Object_58.geometry}
+						material={gltf.materials['930_chromes']}
+					/>
 					<T.Mesh geometry={gltf.nodes.Object_59.geometry} material={gltf.materials.black} />
 				</T.Group>
 				<!--Scheletro 3 -->
 				<T.Group position={[0, 0.87, 2.92]} rotation={[0.46, 0, 0]} scale={0.03}>
-					<T.Mesh geometry={gltf.nodes.Object_63.geometry} material={gltf.materials['930_plastics']} />
-					<T.Mesh geometry={gltf.nodes.Object_64.geometry} material={gltf.materials['930_stickers']} />
+					<T.Mesh
+						geometry={gltf.nodes.Object_63.geometry}
+						material={gltf.materials['930_plastics']}
+					/>
+					<T.Mesh
+						geometry={gltf.nodes.Object_64.geometry}
+						material={gltf.materials['930_stickers']}
+					/>
 				</T.Group>
 				<T.Group position={[-0.25, 1.33, 1.32]} rotation={[0.58, 0.32, -0.01]} scale={0.01}>
-					<T.Mesh geometry={gltf.nodes.Object_68.geometry} material={gltf.materials['930_plastics']} />
+					<T.Mesh
+						geometry={gltf.nodes.Object_68.geometry}
+						material={gltf.materials['930_plastics']}
+					/>
 					<T.Mesh
 						geometry={gltf.nodes.Object_70.geometry}
 						material={gltf.materials['930_plastics']}
@@ -72,8 +99,14 @@ Title: FREE 1975 Porsche 911 (930) Turbo
 					/>
 				</T.Group>
 				<T.Group position={[0, 0.68, -2.62]} scale={[1, 0.96, 1]}>
-					<T.Mesh geometry={gltf.nodes.Object_78.geometry} material={gltf.materials['930_plastics']} />
-					<T.Mesh geometry={gltf.nodes.Object_79.geometry} material={gltf.materials['930_stickers']} />
+					<T.Mesh
+						geometry={gltf.nodes.Object_78.geometry}
+						material={gltf.materials['930_plastics']}
+					/>
+					<T.Mesh
+						geometry={gltf.nodes.Object_79.geometry}
+						material={gltf.materials['930_stickers']}
+					/>
 					<T.Mesh geometry={gltf.nodes.Object_80.geometry} material={gltf.materials.plate} />
 				</T.Group>
 				<!--	Ruota 3 -->
@@ -86,9 +119,18 @@ Title: FREE 1975 Porsche 911 (930) Turbo
 					<T.Mesh geometry={gltf.nodes.Object_117.geometry} material={gltf.materials['930_rim']} />
 					<T.Mesh geometry={gltf.nodes.Object_118.geometry} material={gltf.materials['930_tire']} />
 				</T.Group>
-				<T.Mesh geometry={gltf.nodes.Object_14.geometry} material={gltf.materials['930_stickers']} />
-				<T.Mesh geometry={gltf.nodes.Object_16.geometry} material={gltf.materials['930_stickers']} />
-				<T.Mesh geometry={gltf.nodes.Object_18.geometry} material={gltf.materials['930_stickers']} />
+				<T.Mesh
+					geometry={gltf.nodes.Object_14.geometry}
+					material={gltf.materials['930_stickers']}
+				/>
+				<T.Mesh
+					geometry={gltf.nodes.Object_16.geometry}
+					material={gltf.materials['930_stickers']}
+				/>
+				<T.Mesh
+					geometry={gltf.nodes.Object_18.geometry}
+					material={gltf.materials['930_stickers']}
+				/>
 				<T.Mesh
 					geometry={gltf.nodes.Object_20.geometry}
 					material={gltf.materials['930_lights']}
@@ -175,7 +217,10 @@ Title: FREE 1975 Porsche 911 (930) Turbo
 					rotation={[-0.51, -0.83, -0.19]}
 					scale={0.01}
 				/>
-				<T.Mesh geometry={gltf.nodes.Object_82.geometry} material={gltf.materials['930_plastics']} />
+				<T.Mesh
+					geometry={gltf.nodes.Object_82.geometry}
+					material={gltf.materials['930_plastics']}
+				/>
 				<T.Mesh
 					geometry={gltf.nodes.Object_84.geometry}
 					material={gltf.materials['930_lights']}
@@ -191,15 +236,36 @@ Title: FREE 1975 Porsche 911 (930) Turbo
 				/>
 				<T.Mesh geometry={gltf.nodes.Object_91.geometry} material={gltf.materials['930_chromes']} />
 				<T.Mesh geometry={gltf.nodes.Object_93.geometry} material={gltf.materials['930_chromes']} />
-				<T.Mesh geometry={gltf.nodes.Object_95.geometry} material={gltf.materials['930_lights_refraction']} />
+				<T.Mesh
+					geometry={gltf.nodes.Object_95.geometry}
+					material={gltf.materials['930_lights_refraction']}
+				/>
 				<T.Mesh geometry={gltf.nodes.Object_97.geometry} material={gltf.materials['930_lights']} />
 				<T.Mesh geometry={gltf.nodes.Object_99.geometry} material={gltf.materials['930_chromes']} />
-				<T.Mesh geometry={gltf.nodes.Object_101.geometry} material={gltf.materials['930_chromes']} />
-				<T.Mesh geometry={gltf.nodes.Object_103.geometry} material={gltf.materials['930_plastics']} />
-				<T.Mesh geometry={gltf.nodes.Object_105.geometry} material={gltf.materials['930_plastics']} />
-				<T.Mesh geometry={gltf.nodes.Object_107.geometry} material={gltf.materials['930_chromes']} />
-				<T.Mesh geometry={gltf.nodes.Object_109.geometry} material={gltf.materials['930_chromes']} />
-				<T.Mesh geometry={gltf.nodes.Object_111.geometry} material={gltf.materials['930_chromes']} />
+				<T.Mesh
+					geometry={gltf.nodes.Object_101.geometry}
+					material={gltf.materials['930_chromes']}
+				/>
+				<T.Mesh
+					geometry={gltf.nodes.Object_103.geometry}
+					material={gltf.materials['930_plastics']}
+				/>
+				<T.Mesh
+					geometry={gltf.nodes.Object_105.geometry}
+					material={gltf.materials['930_plastics']}
+				/>
+				<T.Mesh
+					geometry={gltf.nodes.Object_107.geometry}
+					material={gltf.materials['930_chromes']}
+				/>
+				<T.Mesh
+					geometry={gltf.nodes.Object_109.geometry}
+					material={gltf.materials['930_chromes']}
+				/>
+				<T.Mesh
+					geometry={gltf.nodes.Object_111.geometry}
+					material={gltf.materials['930_chromes']}
+				/>
 				<T.Mesh geometry={gltf.nodes.Object_113.geometry} material={gltf.materials.paint} />
 				<!--Body-->
 				<T.Mesh
@@ -246,8 +312,14 @@ Title: FREE 1975 Porsche 911 (930) Turbo
 					material={gltf.materials['930_lights']}
 					position={[1.8, 0.14, 3.2]}
 				/>
-				<T.Mesh geometry={gltf.nodes.Object_136.geometry} material={gltf.materials['930_stickers']} />
-				<T.Mesh geometry={gltf.nodes.Object_138.geometry} material={gltf.materials['930_stickers']} />
+				<T.Mesh
+					geometry={gltf.nodes.Object_136.geometry}
+					material={gltf.materials['930_stickers']}
+				/>
+				<T.Mesh
+					geometry={gltf.nodes.Object_138.geometry}
+					material={gltf.materials['930_stickers']}
+				/>
 				<!--! Low light-->
 				<!--				<T.Mesh-->
 				<!--					geometry={gltf.nodes.Object_140.geometry}-->
