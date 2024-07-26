@@ -54,14 +54,61 @@
 					</Menu.Item>
 				</Menu>
 			{:else}
-				<a class="mx-5" href="/">Home</a>
-				<a class="mx-5" href="/">About</a>
-				<a class="mx-5" href="/">Projects</a>
-				<a class="mx-5" href="/">Contacts</a>
-				<a class="mx-5" href="/">Admin</a>
-				<LightSwitch />
+				<a class="mx-5 text-lg navbar_element" data-content="Home" href="/">Home</a>
+				<a class="mx-5 text-lg navbar_element" data-content="About" href="/">About</a>
+				<a class="mx-5 text-lg navbar_element" data-content="Projects" href="/">Projects</a>
+				<a class="mx-5 text-lg navbar_element" data-content="Contacts" href="/">Contacts</a>
+				<a class="mx-5 text-lg navbar_element" data-content="Admin" href="/">Admin</a>
 			{/if}
 		</div>
 	</div>
 </nav>
 <div class="h-20"></div>
+
+<style lang="scss">
+	.navbar_element {
+		position: relative;
+		display: inline-block;
+		color: #fff;
+		text-decoration: none;
+		overflow: hidden;
+
+		&::before {
+			position: absolute;
+			content: attr(data-content);
+			top: 0;
+			left: 0;
+			width: 0;
+			color: #b26cc7;
+			white-space: nowrap;
+			overflow: hidden;
+			transition: width 275ms ease;
+			text-decoration: underline;
+			text-decoration-thickness: 2px;
+		}
+
+		&::after {
+			content: '';
+			position: absolute;
+			left: 0;
+			bottom: -2px;
+			width: 0;
+			height: 2px;
+			background-color: #b26cc7;
+			transition: width 275ms ease;
+		}
+
+		&:hover::before {
+			width: 100%;
+		}
+
+		&:hover::after {
+			width: 100%;
+		}
+
+		&:hover {
+			color: transparent;
+			transition: color 275ms ease;
+		}
+	}
+</style>
