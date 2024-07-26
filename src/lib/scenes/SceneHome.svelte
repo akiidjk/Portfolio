@@ -1,7 +1,7 @@
 <script>
 	import { T } from '@threlte/core';
-	import { OrbitControls, Sky } from '@threlte/extras';
-	import { JapaneseRestaurant, Porsche911 } from '$lib';
+	import { OrbitControls } from '@threlte/extras';
+	import { JapaneseRestaurant } from '$lib';
 </script>
 
 <!--npx @threlte/gltf@latest .\japanese_restaurant.glb &#45;&#45;transform-->
@@ -9,7 +9,7 @@
 <!-- Configurazione della telecamera prospettica con controlli orbitali -->
 <T.PerspectiveCamera makeDefault position={[1, 1, 0]}>
 	<OrbitControls
-		allowPan={false}
+		enablePan={false}
 		enableDamping
 		maxDistance={10}
 		minDistance={10}
