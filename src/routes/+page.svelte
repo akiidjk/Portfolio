@@ -1,18 +1,18 @@
 <script lang="ts">
 	import Typewriter from 'svelte-typewriter';
-	import { MultiStepLoader, Navbar } from '$lib';
+	import { MultiStepLoader } from '$lib';
 	import { IconSquareRoundedX } from '@tabler/icons-svelte';
 	import { onMount } from 'svelte';
 	import { Canvas } from '@threlte/core';
 	import { SceneHome } from '$lib';
-	import { blur, fly, fade } from 'svelte/transition';
+	import { fly } from 'svelte/transition';
 	import { circOut } from 'svelte/easing';
 
-	let words: string[] = ['Developer', 'CTF Player', 'Student'];
+	let words: string[] = ['Developer', 'CTF Player', 'Student', 'IT enthusiast'];
 
 	let loading = true;
 	// let loading = false;
-	let duration: number = 2000;
+	let duration: number = 1000;
 	const loadingStates = [
 		{ text: 'Booting' },
 		{ text: 'Loading I/O' },
@@ -31,55 +31,67 @@
 	});
 </script>
 
-<main class="w-full h-1/3">
-	<MultiStepLoader {loadingStates} {loading} {duration} loop={false} />
-	{#if loading}
-		<button
-			class="fixed right-4 top-4 z-[120] text-black dark:text-white"
-			on:click={() => {
-				loading = false;
-			}}
-		>
-			<IconSquareRoundedX class="h-10 w-10" />
-		</button>
-	{/if}
+<main class="w-full h-2/3 bg-gradient-to-b from-surface-600 to-surface-900">
+	<div>
+		<MultiStepLoader {loadingStates} {loading} {duration} loop={false} />
+		{#if loading}
+			<button
+				class="fixed right-4 top-4 z-[120] text-black dark:text-white"
+				on:click={() => {
+					loading = false;
+				}}
+			>
+				<IconSquareRoundedX class="h-10 w-10" />
+			</button>
+		{/if}
 
-	<div class="flex w-full float-left">
-		<div class="mt-52 w-[50%]">
-			{#if !loading}
-				<div transition:fly={{ delay: 550, duration: 1000, easing: circOut, x: -1000, y: 0 }}>
-					<Typewriter mode="loop" cursor={true} delay={100}>
-						{#each Object.entries(words) as [_, value]}
-							<div>
-								<h1 class="text-8xl font-medium text-center">{value}</h1>
-							</div>
-						{/each}
-					</Typewriter>
-				</div>
-			{/if}
-		</div>
+		<div class="flex w-full float-left">
+			<div class="mt-52 w-[50%] p-11 flex">
+				{#if !loading}
+					<div transition:fly={{ delay: 550, duration: 1000, easing: circOut, x: -1000, y: 0 }}>
+						<h1 class="text-4xl font-medium leading-tight">Hi 👋 I'm Francesco and i am a</h1>
+						<Typewriter mode="loop" cursor={true} delay={100}>
+							{#each Object.entries(words) as [_, value]}
+								<div>
+									<h1 class="text-8xl font-bold">{value}</h1>
+								</div>
+							{/each}
+						</Typewriter>
+					</div>
+				{/if}
+			</div>
 
-		<div class="w-[50%] float-right">
-			{#if !loading}
-				<div transition:fly={{ delay: 550, duration: 1000, easing: circOut, x: 1000, y: 0 }}>
-					<Canvas>
-						<SceneHome />
-					</Canvas>
-				</div>
-			{/if}
+			<div class="w-[50%] float-right">
+				{#if !loading}
+					<div
+						class="container_house"
+						transition:fly={{ delay: 550, duration: 1000, easing: circOut, x: 1000, y: 0 }}
+					>
+						<Canvas>
+							<SceneHome />
+						</Canvas>
+					</div>
+				{/if}
+			</div>
 		</div>
 	</div>
 </main>
 
-<!--https://www.npmjs.com/package/svelte-typewriter#installation-->
-<!--keepCursorOnFinish={true}-->
+{#if !loading}
+	<div
+		class="w-full h-44 flex justify-center items-center"
+		transition:fly={{ delay: 550, duration: 700, easing: circOut, x: 0, y: 1000 }}
+	>
+		<button type="button" class="btn variant-filled">Find out more about me</button>
+	</div>
+{/if}
 
 <style>
 	:global(body) {
 		margin: 0;
 	}
 
-	div {
+	.container_house {
 		height: 68vh;
 	}
 </style>
