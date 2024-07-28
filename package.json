@@ -55,6 +55,7 @@
 		"@threlte/xr": "^0.1.4",
 		"@types/three": "^0.167.1",
 		"clsx": "^2.1.1",
+		"d3": "^7.9.0",
 		"radix-icons-svelte": "^1.2.1",
 		"svelte-radix": "^1.1.0",
 		"svelte-typewriter": "^3.2.3",
