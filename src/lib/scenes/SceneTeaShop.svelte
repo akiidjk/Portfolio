@@ -24,4 +24,4 @@
 <T.PointLight position={[5, 5, 5]} intensity={1} castShadow />
 <T.SpotLight position={[5, 5, 5]} angle={0.3} intensity={100} />
 
-<JapaneseTeaShop scale={1.5} position={[0, -2, 0]} rotation={[0, 1.2, 0]} />
+<JapaneseTeaShop scale={2} position={[0, -2, 0]} rotation={[0, 1.2, 0]} />
