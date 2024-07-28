@@ -37,19 +37,29 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"@dimforge/rapier3d-compat": "^0.14.0",
 		"@skeletonlabs/tw-plugin": "^0.4.0",
 		"@svelteuidev/composables": "^0.15.7",
 		"@svelteuidev/core": "^0.15.7",
 		"@tabler/icons-svelte": "^3.11.0",
 		"@tailwindcss/forms": "^0.5.7",
 		"@tailwindcss/typography": "^0.5.13",
+		"@theatre/core": "^0.7.2",
+		"@theatre/studio": "^0.7.2",
 		"@threlte/core": "^7.3.1",
 		"@threlte/extras": "^8.11.5",
+		"@threlte/flex": "^1.0.3",
+		"@threlte/gltf": "^2.0.3",
+		"@threlte/rapier": "^2.0.1",
+		"@threlte/theatre": "^2.1.8",
+		"@threlte/xr": "^0.1.4",
+		"@types/three": "^0.167.1",
 		"clsx": "^2.1.1",
 		"radix-icons-svelte": "^1.2.1",
 		"svelte-radix": "^1.1.0",
 		"svelte-typewriter": "^3.2.3",
 		"tabler-icons-svelte": "^1.10.0",
-		"tailwind-merge": "^2.4.0"
+		"tailwind-merge": "^2.4.0",
+		"three": "^0.167.0"
 	}
 }
