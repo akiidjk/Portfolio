@@ -1,17 +1,16 @@
 <script lang="ts">
 	import Typewriter from 'svelte-typewriter';
-	import { MultiStepLoader } from '$lib';
+	import { MultiStepLoader, SceneTeaShop } from '$lib';
 	import { IconSquareRoundedX } from '@tabler/icons-svelte';
 	import { onMount } from 'svelte';
 	import { Canvas } from '@threlte/core';
-	import { SceneHome } from '$lib';
 	import { fly } from 'svelte/transition';
 	import { circOut } from 'svelte/easing';
+	import * as THREE from 'three';
 
 	let words: string[] = ['Developer', 'CTF Player', 'Student', 'IT enthusiast'];
 
-	let loading = true;
-	// let loading = false;
+	let loading = false;
 	let duration: number = 1000;
 	const loadingStates = [
 		{ text: 'Booting' },
@@ -67,8 +66,12 @@
 						class="container_house"
 						transition:fly={{ delay: 550, duration: 1000, easing: circOut, x: 1000, y: 0 }}
 					>
-						<Canvas>
-							<SceneHome />
+						<Canvas
+							shadows
+							toneMapping={THREE.ACESFilmicToneMapping}
+							rendererParameters={{ antialias: true }}
+						>
+							<SceneTeaShop />
 						</Canvas>
 					</div>
 				{/if}
