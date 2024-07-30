@@ -1,4 +1,6 @@
 import Navbar from './components/Navbar.svelte';
+import Blob from './components/Blob.svelte';
+
 import LoaderCore from './components/ui/LoaderCore.svelte';
 import MultiStepLoader from './components/ui/MultiStepLoader.svelte';
 import Porsche911 from './models/Porsche911.svelte';
@@ -15,6 +17,8 @@ import { cn } from './utils/cn';
 
 export {
 	Navbar,
+	Blob,
+
 	LoaderCore,
 	MultiStepLoader,
 	Porsche911,
@@ -22,6 +26,7 @@ export {
 	JapaneseRestaurant,
 	JapaneseTeaShop,
 	SushiSet,
+	
 	SceneHome,
 	SceneSushiSet,
 	SceneTeaShop,
