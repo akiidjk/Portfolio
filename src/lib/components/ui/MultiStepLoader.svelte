@@ -35,14 +35,14 @@
 	let:motion
 	initial={{
 		opacity: 0,
-		zIndex: -1 // Valore iniziale
+		zIndex: -1
 	}}
 	animate={{
 		opacity: loading ? 1 : 0,
-		zIndex: loading ? 100 : -1 // Cambia z-index in base a loading
+		zIndex: loading ? 100 : -1
 	}}
 	transition={{
-		duration: 0.5 // Durata della transizione
+		duration: 0.5
 	}}
 >
 	<div

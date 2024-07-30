@@ -69,7 +69,7 @@
 	.navbar_element {
 		position: relative;
 		display: inline-block;
-		color: #fff;
+		color: #b8b6b6;
 		text-decoration: none;
 		overflow: hidden;
 
@@ -79,7 +79,7 @@
 			top: 0;
 			left: 0;
 			width: 0;
-			color: #b26cc7;
+			color: #fff;
 			white-space: nowrap;
 			overflow: hidden;
 			transition: width 275ms ease;
@@ -94,7 +94,7 @@
 			bottom: -2px;
 			width: 0;
 			height: 2px;
-			background-color: #b26cc7;
+			background-color: #fff;
 			transition: width 275ms ease;
 		}
 

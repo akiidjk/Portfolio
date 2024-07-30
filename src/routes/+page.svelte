@@ -4,14 +4,14 @@
 	import { IconSquareRoundedX } from '@tabler/icons-svelte';
 	import { onMount } from 'svelte';
 	import { Canvas } from '@threlte/core';
-	import { fly } from 'svelte/transition';
-	import { circOut } from 'svelte/easing';
+	import { fade, fly } from 'svelte/transition';
+	import { circOut, cubicInOut, quadInOut, sineOut } from 'svelte/easing';
 	import Blob from '$lib/components/Blob.svelte';
 	import * as THREE from 'three';
 
 	let words: string[] = ['Developer', 'CTF Player', 'Student', 'IT enthusiast'];
 
-	let loading = false;
+	let loading = true;
 	let duration: number = 1000;
 	const loadingStates = [
 		{ text: 'Booting' },
@@ -33,8 +33,14 @@
 
 <div>
 	<main class="w-full h-2/3 bg-gradient-to-b from-surface-600 to-surface-900">
-		<Blob width="1140" height="500" x="1000" y="-100" />
-		<Blob width="1140" height="500" x="-200" y="600" />
+		{#if !loading}
+			<div transition:fade={{ delay: 1000, duration: 1000, easing: sineOut }}>
+				<Blob width="1140" height="500" x="1000" y="-100" />
+			</div>
+			<div transition:fade={{ delay: 1000, duration: 1000, easing: sineOut }}>
+				<Blob width="1140" height="500" x="-200" y="600" />
+			</div>
+		{/if}
 
 		<div>
 			<MultiStepLoader {loadingStates} {loading} {duration} loop={false} />
@@ -49,10 +55,13 @@
 				</button>
 			{/if}
 
-			<div class="flex w-full float-left">
-				<div class="mt-52 w-[50%] p-11 flex">
+			<div class="w-full">
+				<!-- Div padre dei due figli -->
+
+				<div class="mt-52 h-96 float-left p-11 sm:md:w-full lg:w-[50%]">
+					<!-- Div figlio testo sinistra -->
 					{#if !loading}
-						<div transition:fly={{ delay: 550, duration: 1000, easing: circOut, x: -1000, y: 0 }}>
+						<div transition:fly={{ delay: 700, duration: 1200, easing: quadInOut, x: -1000, y: 0 }}>
 							<h1 class="text-4xl font-medium leading-tight">Hi 👋 I'm Francesco and i am a</h1>
 							<Typewriter mode="loop" cursor={true} delay={100}>
 								{#each Object.entries(words) as [_, value]}
@@ -65,11 +74,12 @@
 					{/if}
 				</div>
 
-				<div class="w-[50%] float-right">
+				<div class="h-96 float-right sm:md:w-full lg:w-[50%]">
+					<!-- Div figlio home destro -->
 					{#if !loading}
 						<div
-							class="container_house"
-							transition:fly={{ delay: 550, duration: 1000, easing: circOut, x: 1000, y: 0 }}
+							class="container_house w-full"
+							transition:fly={{ delay: 500, duration: 1500, easing: cubicInOut, x: 1000, y: 0 }}
 						>
 							<Canvas
 								shadows
@@ -82,13 +92,14 @@
 					{/if}
 				</div>
 			</div>
+			<!--  -->
 		</div>
 	</main>
 
 	{#if !loading}
 		<div
 			class="w-full h-44 flex justify-center items-center"
-			transition:fly={{ delay: 550, duration: 700, easing: circOut, x: 0, y: 1000 }}
+			transition:fly={{ delay: 100, duration: 500, easing: circOut, x: 0, y: 200 }}
 		>
 			<button type="button" class="btn variant-filled">Find out more about me</button>
 		</div>
@@ -103,8 +114,4 @@
 	.container_house {
 		height: 68vh;
 	}
-
-	/* .blur_background {
-		background-image: url('blurry-gradient.png');
-	} */
 </style>
