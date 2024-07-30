@@ -18,7 +18,6 @@ import { cn } from './utils/cn';
 export {
 	Navbar,
 	Blob,
-
 	LoaderCore,
 	MultiStepLoader,
 	Porsche911,
@@ -26,7 +25,6 @@ export {
 	JapaneseRestaurant,
 	JapaneseTeaShop,
 	SushiSet,
-	
 	SceneHome,
 	SceneSushiSet,
 	SceneTeaShop,
