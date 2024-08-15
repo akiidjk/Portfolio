@@ -16,15 +16,11 @@
 		'M297.2 -208.9C370.4 -145.4 404.5 -22.6 378.5 84.4C352.5 191.4 266.3 282.6 170.5 313.1C74.6 343.6 -30.8 313.2 -118.2 264C-205.5 214.8 -274.8 146.7 -294.2 66C-313.6 -14.8 -283.1 -108.1 -225.7 -168C-168.4 -228 -84.2 -254.6 13.9 -265.8C112.1 -276.9 224.1 -272.5 297.2 -208.9'
 	];
 
-	let random_path = Math.floor(Math.random() * blobs_path.length);
+	let currentIndex = Math.floor(Math.random() * blobs_path.length);
+	let currentPath = blobs_path[currentIndex];
 
-	let currentPath = blobs_path[random_path];
-	let currentIndex = random_path;
-	console.log(currentIndex);
-	// Todo randomize next index
 	function updatePath() {
-		const nextIndex = (currentIndex + 1) % blobs_path.length;
-		console.log(nextIndex);
+		const nextIndex = Math.floor(Math.random() * blobs_path.length);
 		const interpolator = interpolate(currentPath, blobs_path[nextIndex]);
 		let t = 0;
 		const duration = 5000;
@@ -45,7 +41,7 @@
 	}
 
 	onMount(() => {
-		const interval = setInterval(updatePath, 1000);
+		const interval = setInterval(updatePath, 5000);
 		return () => clearInterval(interval);
 	});
 </script>
