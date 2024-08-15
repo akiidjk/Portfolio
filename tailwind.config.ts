@@ -4,6 +4,7 @@ import forms from '@tailwindcss/forms';
 import typography from '@tailwindcss/typography';
 import { skeleton } from '@skeletonlabs/tw-plugin';
 import flattenColorPalette from 'tailwindcss/lib/util/flattenColorPalette';
+import daisyui from "daisyui"
 
 import { onedark } from './onedark';
 
@@ -16,7 +17,11 @@ export default {
 	theme: {
 		extend: {}
 	},
+	daisyui: {
+    themes: ["light", "dark","dim"],
+  },
 	plugins: [
+		daisyui,
 		addVariablesForColors,
 		forms,
 		typography,
