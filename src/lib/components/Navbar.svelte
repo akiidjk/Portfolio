@@ -1,5 +1,4 @@
 <script>
-	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import { onMount } from 'svelte';
 	import { Menu } from '@svelteuidev/core';
 	import {
@@ -49,9 +48,6 @@
 					<Menu.Item icon={BookmarkFilled}><a class="mx-5" href="/">Projects</a></Menu.Item>
 					<Menu.Item icon={Share1}><a class="mx-5" href="/">Contacts</a></Menu.Item>
 					<Menu.Item icon={LockClosed}><a class="mx-5" href="/">Admin</a></Menu.Item>
-					<Menu.Item>
-						<LightSwitch />
-					</Menu.Item>
 				</Menu>
 			{:else}
 				<a class="mx-5 text-lg navbar_element" data-content="Home" href="/">Home</a>
