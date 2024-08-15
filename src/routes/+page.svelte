@@ -56,17 +56,16 @@
 			{/if}
 
 			<div class="w-full">
-				<!-- Div padre dei due figli -->
-
-				<div class="mt-52 h-96 float-left p-11 sm:md:w-full lg:w-[50%]">
-					<!-- Div figlio testo sinistra -->
+				<div class="mt-8 lg:mt-52 p-5 lg:h-96 sm:h-32 lg:p-11 sm:p-8 float-left w-full lg:w-1/2">
 					{#if !loading}
 						<div transition:fly={{ delay: 700, duration: 1200, easing: quadInOut, x: -1000, y: 0 }}>
-							<h1 class="text-4xl font-medium leading-tight">Hi 👋 I'm Francesco and i am a</h1>
+							<h1 class="sm:text-3xl md:text-4xl lg:text-4xl font-medium leading-tight">
+								Hi 👋 I'm Francesco and i am a
+							</h1>
 							<Typewriter mode="loop" cursor={true} delay={100}>
 								{#each Object.entries(words) as [_, value]}
 									<div>
-										<h1 class="text-8xl font-bold">{value}</h1>
+										<h1 class="text-3xl sm:text-6xl md:text-6xl lg:text-8xl font-bold">{value}</h1>
 									</div>
 								{/each}
 							</Typewriter>
@@ -74,11 +73,10 @@
 					{/if}
 				</div>
 
-				<div class="h-96 float-right sm:md:w-full lg:w-[50%]">
-					<!-- Div figlio home destro -->
+				<div class="h-96 float-right w-full lg:w-[50%] z-10">
 					{#if !loading}
 						<div
-							class="container_house w-full"
+							class="h-[45vh] sm:h-[60vh] md:h-[68vh] w-full z-10"
 							transition:fly={{ delay: 500, duration: 1500, easing: cubicInOut, x: 1000, y: 0 }}
 						>
 							<Canvas
@@ -98,10 +96,14 @@
 
 	{#if !loading}
 		<div
-			class="w-full h-44 flex justify-center items-center"
+			class="w-full lg:h-44 flex justify-center items-center pt-20 sm:pt-40 md:pt-52 sm:pb-8 md:pb-10 lg:pt-0"
 			transition:fly={{ delay: 100, duration: 500, easing: circOut, x: 0, y: 200 }}
 		>
-			<button type="button" class="btn variant-filled">Find out more about me</button>
+			<a href="/about">
+				<button type="button" class="btn btn-wide rounded-btn btn-accent"
+					>Find out more about me</button
+				></a
+			>
 		</div>
 	{/if}
 </div>
@@ -109,9 +111,5 @@
 <style>
 	:global(body) {
 		margin: 0;
-	}
-
-	.container_house {
-		height: 68vh;
 	}
 </style>
