@@ -9,10 +9,12 @@
 	import Blob from '$lib/components/Blob.svelte';
 	import * as THREE from 'three';
 
+	import { getCookie, updateLoading } from '$lib/utils/storage';
+
 	let words: string[] = ['Developer', 'CTF Player', 'Student', 'IT enthusiast'];
 
-	let loading = true;
 	let duration: number = 1000;
+	let loading: boolean;
 	const loadingStates = [
 		{ text: 'Booting' },
 		{ text: 'Loading I/O' },
@@ -25,9 +27,20 @@
 	];
 
 	onMount(() => {
-		setTimeout(() => {
-			loading = false;
-		}, duration * loadingStates.length);
+		console.log('loadingValue', getCookie('loading'));
+
+		if (getCookie('loading') === null) {
+			loading = true;
+
+			setTimeout(() => {
+				updateLoading();
+				loading = false;
+			}, duration * loadingStates.length);
+		} else {
+			console.log('Else: ', getCookie('loading'));
+			loading = getCookie('loading') === 'true';
+			console.log('Else: ', loading);
+		}
 	});
 </script>
 
@@ -48,6 +61,7 @@
 				<button
 					class="fixed right-4 top-4 z-[120] text-black dark:text-white"
 					on:click={() => {
+						updateLoading();
 						loading = false;
 					}}
 				>
