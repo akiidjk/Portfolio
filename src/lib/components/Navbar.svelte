@@ -51,7 +51,7 @@
 				</Menu>
 			{:else}
 				<a class="mx-5 text-lg navbar_element" data-content="Home" href="/">Home</a>
-				<a class="mx-5 text-lg navbar_element" data-content="About" href="/">About</a>
+				<a class="mx-5 text-lg navbar_element" data-content="About" href="/about">About</a>
 				<a class="mx-5 text-lg navbar_element" data-content="Projects" href="/">Projects</a>
 				<a class="mx-5 text-lg navbar_element" data-content="Contacts" href="/">Contacts</a>
 				<a class="mx-5 text-lg navbar_element" data-content="Admin" href="/">Admin</a>
